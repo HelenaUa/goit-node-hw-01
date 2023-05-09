@@ -1,9 +1,6 @@
 const contactService = require('./contacts');
 const {program} = require("commander");
 
-// const { Command } = require("commander");
-// const program = new Command();
-
 
 async function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
